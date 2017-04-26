@@ -7,20 +7,21 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <link rel=stylesheet type="text/css" href="CSS/css.css">  
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <title>nada </title>
-    </head>
+        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.min.css" type="text/css"/>
+
     <body>        
         <div class="cabeca">
             <a href="index.jsp">
-                <img class="mg-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" width="200"> </a>
-            <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default">1</button>
-                <button type="button" class="btn btn-default">2</button>
+                <img class="mg-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" width="200"> 
+            </a>
+            <div class="btn-group" role="group">
+                <a href="index.jsp"><button type="button" class="btn btn-default">HOME</button></a>
+                <a href="sobre.jsp"><button type="button" class="btn btn-default">Sobre</button></a>
+                
 
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -33,6 +34,7 @@
                     </ul>
                 </div>
             </div>
+            
         </div>   
 
     </body>
