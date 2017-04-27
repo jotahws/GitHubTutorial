@@ -7,36 +7,44 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <link rel=stylesheet type="text/css" href="CSS/css.css">  
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css" type="text/css"/>
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.min.css" type="text/css"/>
+    <link rel=stylesheet type="text/css" href="CSS/css.css"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <body>        
-        <div class="cabeca">
-            <a href="index.jsp">
-                <img class="mg-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" width="200"> 
-            </a>
-            <div class="btn-group" role="group">
-                <a href="index.jsp"><button type="button" class="btn btn-default">HOME</button></a>
-                <a href="sobre.jsp"><button type="button" class="btn btn-default">Sobre</button></a>
-                
 
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Dropdown link</a></li>
-                        <li><a href="#">Dropdown link</a></li>
+
+    <body>
+
+        <div class="cabecalho">
+            <div class="linkcabecalho">
+                <a href="index.jsp">
+                    <img class="mg-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" width="200" >
+                </a>
+            </div>
+
+            <div class="btn-group">
+                 <a href="index.jsp" class="btn btn-default bar-tamanho" >HOME</a>
+                <div class="btn-group dropdown">
+                    <button class="btn btn-default dropdown-toggle bar-tamanho" type="button" data-toggle="dropdown">Tutorial
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">  
+                        <li class="bar-tamanho"><a href="terminal.jsp">Terminal</a></li>
+                        <li class="bar-tamanho"><a href="terminal.jsp">Web</a></li>
                     </ul>
                 </div>
+                  <a href="sobre.jsp" class="btn btn-default bar-tamanho" >Sobre</a>
             </div>
-            
-        </div>   
+        </div>
 
+
+        <div role="main" class="col-md-8 col-md-push-2">
+
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
 
 </html>

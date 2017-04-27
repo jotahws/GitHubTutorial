@@ -9,20 +9,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css" type="text/css"/>
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.min.css" type="text/css"/>
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap-theme.min.css" type="text/css"/>
-        <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap-theme.css" type="text/css"/>
-        <style>                    
-
-        </style>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
         <title>Home</title>
     </head>
     <body>
-        <div class="container">
-            <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
-            <p> asd</p>
-        </div>
+        <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
+       
+        ad<p>sd</p>
+        
+        
+        
+        
+        
+        
+        
+        <%@ include file="PRE-FABRICADO/rodape.jsp" %>
     </body>
 </html>

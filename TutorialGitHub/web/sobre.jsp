@@ -12,6 +12,16 @@
         <title>Sobre nós</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
+
+
+
+
+
+
+
+
+
+        <%@ include file="PRE-FABRICADO/rodape.jsp" %>
     </body>
 </html>
