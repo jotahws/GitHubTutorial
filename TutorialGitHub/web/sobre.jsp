@@ -14,6 +14,8 @@
     <body>
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
 
+        <div role="main" class="col-md-8 col-md-push-2">
+        </div>
 
 
 

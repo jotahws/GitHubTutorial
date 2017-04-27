@@ -24,24 +24,21 @@
             </div>
 
             <div class="btn-group">
-                 <a href="index.jsp" class="btn btn-default bar-tamanho" >HOME</a>
+                <a href="index.jsp" class="btn btn-default bar-tamanho" >HOME</a>
                 <div class="btn-group dropdown">
                     <button class="btn btn-default dropdown-toggle bar-tamanho" type="button" data-toggle="dropdown">Tutorial
                         <span class="caret"></span></button>
                     <ul class="dropdown-menu">  
+                        <li class="bar-tamanho"><a href="guiabasico.jsp">Guia Básico</a></li>
                         <li class="bar-tamanho"><a href="terminal.jsp">Terminal</a></li>
                         <li class="bar-tamanho"><a href="terminal.jsp">Web</a></li>
                     </ul>
                 </div>
-                  <a href="sobre.jsp" class="btn btn-default bar-tamanho" >Sobre</a>
+                <a href="sobre.jsp" class="btn btn-default bar-tamanho" >Sobre</a>
             </div>
         </div>
 
 
-        <div role="main" class="col-md-8 col-md-push-2">
-
-
-        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

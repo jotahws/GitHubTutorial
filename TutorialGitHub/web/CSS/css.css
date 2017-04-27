@@ -3,28 +3,32 @@
     padding-top: 5px;
     text-align: center;
 }
-.linkcabecalho{
-    margin-left:520px;
-    margin-right: 520px;
 
-}
 div[role="main"] {
-    min-height: 540px;
+    min-height: 455px;
     background-color:#eeeeee ;
     border: 1px solid;
 }
 
-footer{
+.footer{
     position: relative;
     bottom:0;
     width:100%;
-    padding-bottom: 10px;
-    
 }
 
 .bar-tamanho {
     font-family: serif;
     font-size: 25px;
-    width: 338px;
+    width: 305px;
     white-spae: normal;
+}
+
+#logoFooter{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav{
+    background-color: red;
+    height: 455px;
 }

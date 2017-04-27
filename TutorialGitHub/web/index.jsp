@@ -16,7 +16,13 @@
     <body>
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
        
-        ad<p>sd</p>
+       
+        <div role="main" class="col-md-8 col-md-push-2">
+        </div>
+        
+        <nav class="col-md-3 col-md-pull-9">
+            <p>sdsd</p>OI   
+        </nav>
         
         
         
