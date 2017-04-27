@@ -21,7 +21,7 @@
         </div>
         
         <nav class="col-md-3 col-md-pull-9">
-            <p>sdsd</p>OI   
+            <p>sdsd</p>OI  
         </nav>
         
         
