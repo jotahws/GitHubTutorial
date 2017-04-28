@@ -25,6 +25,38 @@
                 </a>
             </div>
 
+            <!-- 
+           
+            SUGESTAO DO JOTA PARA O CABECALHO:
+            
+            <nav class="navbar navbar-default navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>                        
+                                    </button>
+                                    <a class="navbar-brand" href="index.jsp">GitHub Tutorial</a>
+                                </div>
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.jsp">Home</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="guiabasico.jsp">Guia Básico</a>
+                                                <li><a href="terminalPagina1.jsp">Terminal</a></li>
+                                                <li><a href="web.jsp">Web</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="sobre.jsp">Sobre nós</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </nav>-->
+
             <div class="btn-group">
                 <a href="index.jsp" class="btn btn-default bar-tamanho" >HOME</a>
                 <div class="btn-group dropdown">
