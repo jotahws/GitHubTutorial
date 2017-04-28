@@ -15,12 +15,10 @@
     <body>
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
 
-        <div class="container-fluid text-left">    
+        <div class="container text-left">    
             <div class="row">
-                <div class="list-group col-md-2 sidenav">
-                </div>
 
-                <div class="col-sm-8 text-left conteudoCentro"> 
+                <div class="col-sm-12 text-left conteudoCentro"> 
                     <h2>Guia Básico</h2>
 
 

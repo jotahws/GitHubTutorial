@@ -14,12 +14,11 @@
 }
 
 .footer{
-    color: white;
     margin-top: 20px;
-    background-color: #002f5c;
     position: relative;
     bottom:0;
     width:100%;
+    border-top:1px solid appworkspace;
 }
 
 
@@ -42,7 +41,5 @@
 }
 
 .sidenav {
-    padding-top: 35px;
-    padding-left: 20px;
     height: 100%;
 }

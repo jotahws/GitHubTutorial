@@ -16,7 +16,7 @@
 
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
         <div class="container">
-            <div class="container-fluid text-left">    
+            <div class="container text-left">    
                 <div class="row content">
                     <div class="list-group col-md-2 sidenav">
                         <a href="terminalPagina1" class="list-group-item active">Terminal
@@ -30,7 +30,7 @@
                         <a href="restore1" class="list-group-item">Restore</a>
                     </div>
 
-                    <div class="col-sm-8 text-left conteudoCentro"> 
+                    <div class="col-sm-10 text-left conteudoCentro"> 
                         <h2>O que é um repositorio de Código?</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <hr>

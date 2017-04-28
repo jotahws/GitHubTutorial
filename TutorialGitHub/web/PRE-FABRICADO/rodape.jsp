@@ -11,14 +11,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <div class="footer"> <!-- Aqui e a area do footer -->
-            <div class="container text-center">
+        <div class="container text-center">
+            <div class="footer"> <!-- Aqui e a area do footer -->
+
                 <div class="row">
                     <div id="logoFooter" class="col-md-12 text-center">
                         <p>
-                            Universidade Federal do Paraná 
-                            <img src="IMAGENS/Octocat12Branco.png" width="20" class="text-right" >
-                            © 2017 Tutorial GitHub, Org.
+                        <div class="text-center col-md-4">UFPR - Universidade Federal do Paraná </div>
+                        <div class="col-md-4">
+                            <img src="IMAGENS/Octocat12Preto.png" width="30px" class="text-center " >
+                        </div>
+                        <div class="text-center col-md-4">© 2017 Tutorial GitHub, Org.</div>
                         </p>
                     </div>
                 </div>
