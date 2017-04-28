@@ -1,11 +1,22 @@
 .cabecalho{
-    background-color: #8e7cc3;
+    background-color: #002f5c;
+    background: -webkit-linear-gradient(#594377 , #002f5c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#594377, #002f5c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#594377, #002f5c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#594377 , #002f5c); /* Standard syntax */
     padding-top: 5px;
     text-align: center;
 }
 
+#imgcabeca {
+    padding-bottom: 20px;
+    width: 200px;
+}
 
 .footer{
+    color: white;
+    margin-top: 20px;
+    background-color: #002f5c;
     position: relative;
     bottom:0;
     width:100%;
@@ -23,12 +34,11 @@
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 16px;
-    font-family: serif;
 }
 
 .conteudoCentro{
-    border: 1px solid;
     background-color: #f1f1f1;
+    padding: 10px;
 }
 
 .sidenav {
