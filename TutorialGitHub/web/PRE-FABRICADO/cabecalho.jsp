@@ -11,6 +11,8 @@
 
     <link rel=stylesheet type="text/css" href="CSS/css.css"> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 
@@ -30,8 +32,8 @@
                         <span class="caret"></span></button>
                     <ul class="dropdown-menu">  
                         <li class="bar-tamanho"><a href="guiabasico.jsp">Guia Básico</a></li>
-                        <li class="bar-tamanho"><a href="terminal.jsp">Terminal</a></li>
-                        <li class="bar-tamanho"><a href="terminal.jsp">Web</a></li>
+                        <li class="bar-tamanho"><a href="terminalPagina1.jsp">Terminal</a></li>
+                        <li class="bar-tamanho"><a href="web.jsp">Web</a></li>
                     </ul>
                 </div>
                 <a href="sobre.jsp" class="btn btn-default bar-tamanho" >Sobre</a>

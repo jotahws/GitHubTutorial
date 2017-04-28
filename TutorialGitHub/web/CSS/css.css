@@ -4,11 +4,6 @@
     text-align: center;
 }
 
-div[role="main"] {
-    min-height: 455px;
-    background-color:#eeeeee ;
-    border: 1px solid;
-}
 
 .footer{
     position: relative;
@@ -16,19 +11,28 @@ div[role="main"] {
     width:100%;
 }
 
+
 .bar-tamanho {
     font-family: serif;
     font-size: 25px;
-    width: 305px;
+    width: 275px;
     white-spae: normal;
 }
 
 #logoFooter{
     padding-top: 12px;
     padding-bottom: 12px;
+    font-size: 16px;
+    font-family: serif;
 }
 
-nav{
-    background-color: red;
-    height: 455px;
+.conteudoCentro{
+    border: 1px solid;
+    background-color: #f1f1f1;
+}
+
+.sidenav {
+    padding-top: 35px;
+    padding-left: 20px;
+    height: 100%;
 }

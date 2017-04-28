@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index2
-    Created on : 28/04/2017, 11:21:18
+    Document   : terminal Pagina 1
+    Created on : 28/04/2017, 11:55:33
     Author     : MauMau
 --%>
 
@@ -17,11 +17,21 @@
         <title>JSP Page</title>
     </head>
     <body>
+        
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
 
         <div class="container-fluid text-left">    
             <div class="row content">
                 <div class="list-group col-md-2 sidenav">
+                    <a href="terminalPagina1" class="list-group-item active">Terminal
+                    </a>
+                    <a href="create1" class="list-group-item">Create</a>
+                    <a href="add1" class="list-group-item">Add</a>
+                    <a href="commit1" class="list-group-item">Commit</a>
+                    <a href="branch1" class="list-group-item">Branch</a>
+                    <a href="merge1" class="list-group-item">Merge</a>
+                    <a href="tag1" class="list-group-item">Tag</a>
+                    <a href="restore1" class="list-group-item">Restore</a>
                 </div>
 
                 <div class="col-sm-8 text-left conteudoCentro"> 
@@ -33,20 +43,13 @@
                     <hr>
                     <h2>Sobre o Tutorial</h2>
                     <p>Lorem ipsum asdjoidljasoufhalksd sapidjsapidsahkçjdpiasçkn...</p>
-                    <br>
-                    <a class="bottom btn btn-primary col-md-2 center-block" href="guiabasico.jsp" >Iniciar o Tutorial</a>
                 </div>
 
-            </div>
+                </div>
         </div>
-
-
-
-
 
 
         <%@ include file="PRE-FABRICADO/rodape.jsp" %>
 
     </body>
 </html>
-

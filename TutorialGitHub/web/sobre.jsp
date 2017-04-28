@@ -14,16 +14,23 @@
     <body>
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
 
-        <div role="main" class="col-md-8 col-md-push-2">
+        <div class="container-fluid text-left">    
+            <div class="row content">
+                <div class="list-group col-md-2 sidenav">
+                </div>
+
+                <div class="col-sm-8 text-left conteudoCentro"> 
+                    <h2>Sobre</h2>
+                </div>
+
+            </div>
         </div>
 
 
 
-
-
-
-
-
         <%@ include file="PRE-FABRICADO/rodape.jsp" %>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
     </body>
 </html>
