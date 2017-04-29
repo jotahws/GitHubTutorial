@@ -18,10 +18,8 @@
 
         <div class="container text-left">    
             <div class="row content">
-                <!--                <div class="list-group col-md-2 sidenav">
-                                </div>-->
 
-                <div class="col-sm-9 text-left conteudoCentro"> 
+                <div class="col-md-9 text-left conteudoCentro"> 
                     <h2>O que é um repositório de Código?</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <hr>
@@ -31,10 +29,13 @@
                     <h2>Sobre o Tutorial</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <br>
-                    <a class="bottom btn btn-primary col-md-2 center-block" href="guiabasico.jsp" >Iniciar o Tutorial</a>
+                    <div class="text-center botao-final">
+                        <a href="guiabasico.jsp" class="bottom btn-lg btn-primary" >Iniciar o Tutorial</a>
+                    </div>
                 </div>
+
                 <div class="list-group col-md-3 sidenav">
-                    <h1>PODEMOS COLOCAR MAIS ALGUMA COISA AQUI PRA NAO FICAR TAO GRANDE (EU NAO SEI OQ)</h1>
+                    <img alt="Octocat" src='IMAGENS/Octocat15.jpg' width="300px">
                 </div>
 
             </div>

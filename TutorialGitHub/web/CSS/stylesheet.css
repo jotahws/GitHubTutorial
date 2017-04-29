@@ -10,7 +10,7 @@
 
 #imgcabeca {
     padding-bottom: 20px;
-    width: 200px;
+    width: 170px;
 }
 
 .footer{
@@ -18,7 +18,7 @@
     position: relative;
     bottom:0;
     width:100%;
-    border-top:1px solid appworkspace;
+    border-top:1px solid #ccc;
 }
 
 
@@ -42,4 +42,17 @@
 
 .sidenav {
     height: 100%;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 35px;
+}
+
+#path > a {
+    color: black;
+}
+
+.botao-final{
+    padding-bottom: 30px;
+    
 }
