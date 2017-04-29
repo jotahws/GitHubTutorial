@@ -19,7 +19,7 @@
         <div class="cabecalho">
             <div class="linkcabecalho">
                 <a href="index.jsp">
-                    <img class="img-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHubBranca.png" >
+                    <img class="img-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" >
                 </a>
             </div>
 
@@ -47,7 +47,6 @@
                             </li>
                             <li><a href="sobre.jsp">Sobre nós</a></li>
                         </ul>
-
                     </div>
                 </div>
             </nav>

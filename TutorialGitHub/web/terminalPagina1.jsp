@@ -35,10 +35,10 @@
                     <!-- Corpo do modulo -->
                     <div class="col-sm-10 text-left conteudoCentro"> 
                         <!-- Caminho do modulo -->
-                        <div id="path">
-                            <a href="guiabasico.jsp">Guia Básico</a> > 
-                            <a href="terminalPagina1.jsp">Terminal</a>
-                        </div>
+                        <ol class="breadcrumb">
+                            <li><a href="guiabasico.jsp">Guia Básico</a></li>
+                            <li class="active">Terminal</li>
+                        </ol>
                         <h1>Terminal</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <hr>
