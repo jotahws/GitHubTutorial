@@ -41,7 +41,7 @@
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="guiabasico.jsp">Guia Básico</a></li>
-                                    <li><a href="terminalPagina1.jsp">Terminal</a></li>
+                                    <li><a href="terminal.jsp">Terminal</a></li>
                                     <li><a href="web.jsp">Web</a></li>
                                 </ul>
                             </li>

@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="list-group col-md-3 sidenav">
-                        <img alt="Octocat" src='IMAGENS/Octocat7.png' width="300px">
+                        <img alt="Octocat" src='IMAGENS/Octocat7.png' width="300">
                     </div>
                 </div>
             </div>

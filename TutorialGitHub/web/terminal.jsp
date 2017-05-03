@@ -20,15 +20,15 @@
                 <div class="row content">
                     <!-- Lista dos Modulos -->
                     <div class="list-group list-group-root col-md-2 sidenav">
-                        <a href="terminalPagina1" class="list-group-item active">Terminal</a>
+                        <a href="terminal.jsp" class="list-group-item active">Terminal</a>
                         <div class="list-group">
-                            <a href="create1" class="list-group-item">Create</a>
-                            <a href="add1" class="list-group-item">Add</a>
-                            <a href="commit1" class="list-group-item">Commit</a>
-                            <a href="branch1" class="list-group-item">Branch</a>
-                            <a href="merge1" class="list-group-item">Merge</a>
-                            <a href="tag1" class="list-group-item">Tag</a>
-                            <a href="restore1" class="list-group-item">Restore</a>
+                            <a href="CREATE/pagina1.jsp" class="list-group-item">Create</a>
+                            <a href="ADD/add1.jsp" class="list-group-item">Add</a>
+                            <a href="COMMIT/commit1.jsp" class="list-group-item">Commit</a>
+                            <a href="BRANCH/branch1.jsp" class="list-group-item">Branch</a>
+                            <a href="MERGE/merge1.jsp" class="list-group-item">Merge</a>
+                            <a href="TAG/tag1.jsp" class="list-group-item">Tag</a>
+                            <a href="RESTORE/restore1.jsp" class="list-group-item">Restore</a>
                         </div>
                     </div>
 

@@ -25,7 +25,7 @@
                     <br>
 
                     <div class="btn btn-toolbar ">
-                        <a class="bottom btn btn-primary" href="terminalPagina1.jsp" >
+                        <a class="bottom btn btn-primary" href="terminal.jsp" >
                             Terminal
                         </a>
                         <a class="bottom btn btn-primary" href="web.jsp" >
