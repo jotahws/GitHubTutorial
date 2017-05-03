@@ -18,8 +18,8 @@
 
         <div class="cabecalho">
             <div class="linkcabecalho">
-                <a href="index.jsp">
-                    <img class="img-responsive center-block" id="imgcabeca" src="IMAGENS/LogoTutorialGitHub.png" >
+                <a href="${pageContext.request.contextPath}/index.jsp">
+                    <img  class="img-responsive center-block" id="imgcabeca" src="${pageContext.request.contextPath}/IMAGENS/LogoTutorialGitHub.png" >
                 </a>
             </div>
 
@@ -36,16 +36,16 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.jsp">Home</a></li>
+                            <li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="guiabasico.jsp">Guia Básico</a></li>
-                                    <li><a href="terminal.jsp">Terminal</a></li>
-                                    <li><a href="web.jsp">Web</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/web.jsp">Web</a></li>
                                 </ul>
                             </li>
-                            <li><a href="sobre.jsp">Sobre nós</a></li>
+                            <li><a href="${pageContext.request.contextPath}/sobre.jsp">Sobre nós</a></li>
                         </ul>
                     </div>
                 </div>

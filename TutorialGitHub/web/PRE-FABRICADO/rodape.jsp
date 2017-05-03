@@ -19,7 +19,7 @@
                         <p>
                         <div class="text-center col-md-4">UFPR - Universidade Federal do Paraná </div>
                         <div class="col-md-4">
-                            <img src="IMAGENS/Octocat12Preto.png" width="30px" class="text-center " >
+                            <img src="${pageContext.request.contextPath}/IMAGENS/Octocat12Preto.png" width="30" class="text-center " >
                         </div>
                         <div class="text-center col-md-4">© 2017 Tutorial GitHub, Org.</div>
                         </p>
