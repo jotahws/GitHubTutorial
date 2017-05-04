@@ -9,27 +9,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <link rel=stylesheet type="text/css" href="CSS/css.css">
-
-        <title>JSP Page</title>
     </head>
     <body>
-        <div class="footer"> <!-- Aqui e a area do footer -->
-            <div class="container text-center">
+        <div class="container text-center">
+            <div class="footer"> <!-- Aqui e a area do footer -->
+
                 <div class="row">
-                    <!--<div id="logoFooter" class="col-md-offset-4 col-md-5">Universidade Federal do Paraná © 2017 Tutorial GitHub, Org.</div> 
-                    -->
-                    <div class="col-md-3"> </div>
-                    <div id="logoFooter" class="col-md-3 text-right">
-                        <p>Universidade Federal do Paraná 
-                            <img src="IMAGENS/Octocat12.png" width="20" class="text-right" >
+                    <div id="logoFooter" class="col-md-12 text-center">
+                        <p>
+                        <div class="text-center col-md-4">UFPR - Universidade Federal do Paraná </div>
+                        <div class="col-md-4">
+                            <img src="${pageContext.request.contextPath}/IMAGENS/Octocat12Preto.png" width="30" class="text-center " >
+                        </div>
+                        <div class="text-center col-md-4">© 2017 Tutorial GitHub, Org.</div>
                         </p>
                     </div>
-                    <div id="logoFooter" class="col-md-3">
-                        <p>© 2017 Tutorial GitHub, Org.</p>
-                    </div>
-                    <div id="logoFooter" class="col-md-3"> </div>
                 </div>
             </div>
         </div>

@@ -9,10 +9,6 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel=stylesheet type="text/css" href="CSS/stylesheet.css"> 
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
         <title>Tutorial Web</title>
     </head>
@@ -20,7 +16,7 @@
 
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
 
-        <div class="container-fluid text-left">    
+        <div class="container text-left">    
             <div class="row content">
                 <div class="list-group col-md-2 sidenav">
                     <a href="web.jsp" class="list-group-item active">Web
@@ -32,7 +28,7 @@
                     <a href="merge1" class="list-group-item">Explorar</a>
                 </div>
 
-                <div class="col-sm-8 text-left conteudoCentro"> 
+                <div class="col-sm-10 text-left conteudoCentro"> 
                     <h2>GitHub Web</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <hr>
@@ -44,5 +40,8 @@
 
         <%@ include file="PRE-FABRICADO/rodape.jsp" %>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="BOOTSTRAP/js/bootstrap.min.js"></script>
+        
     </body>
 </html>
