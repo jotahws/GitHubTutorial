@@ -18,7 +18,7 @@
             <div class="titulo"> 
                 <div class="container">
                     <h2>Sobre nós</h2>
-                    </p>
+                    
                 </div>            
             </div>
             <div class="first-content"> 
@@ -33,7 +33,7 @@
                     <div class="equipe-fotos">
                         <div class="col-md-4 container-fluid">
                             <img class="center-block" src="IMAGENS/mauricio.jpg" alt=""/>
-                            <h3 class="text-center">Mauricio Araújo Sforça</h3>
+                            <h3 class="text-center">Mauricio de Araújo Sforça</h3>
                         </div>
                         <div class="col-md-4 container-fluid">
                             <img class="center-block" src="IMAGENS/jota.jpg" alt="" />
