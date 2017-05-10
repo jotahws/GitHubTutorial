@@ -1,6 +1,6 @@
 <%-- 
-    Document   : pagina1
-    Created on : 03/05/2017, 16:39:48
+    Document   : web
+    Created on : 10/05/2017, 13:38:30
     Author     : MauMau
 --%>
 
@@ -17,20 +17,19 @@
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
+        
         <div class="container">
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
                     <div class="list-group list-group-root col-md-2 sidenav">
-                        <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
+                        <a href="${pageContext.request.contextPath}/WEB/web.jsp" class="list-group-item active">Web</a>
                         <div class="list-group">
-                            <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
-                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item active">Add</a>
-                            <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
-                            <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item">Branch</a>
-                            <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
-                            <a href="${pageContext.request.contextPath}/TAG/pagina1.jsp" class="list-group-item">Tag</a>
-                            <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
+                            <a href="${pageContext.request.contextPath}/BASICO/pagina1.jsp" class="list-group-item">Basico</a>
+                            <a href="${pageContext.request.contextPath}/CLONE/pagina1.jsp" class="list-group-item">Clone</a>
+                            <a href="${pageContext.request.contextPath}/FORK/pagina1.jsp" class="list-group-item">Fork</a>
+                            <a href="${pageContext.request.contextPath}/GRAFICOS/pagina1.jsp" class="list-group-item ">Graficos</a>
+                            <a href="${pageContext.request.contextPath}/EXPLORAR/pagina1.jsp" class="list-group-item">Explorar</a>
                         </div>
                     </div>
 
@@ -38,10 +37,7 @@
                     <div class="col-sm-10 text-left conteudoCentro"> 
                         <!-- Caminho do modulo -->
                         <ol class="breadcrumb">
-                            <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
-                            <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
-                            <li><a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp">Create</a></li>
-                            <li class="active">Add </li>
+                            <li class="active">Web</li>
                         </ol>
                         <h1>Terminal</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -55,22 +51,13 @@
                             <div class="col-md-12 text-center">
                                 <div class="col-md-4"></div>
                                 <div class="col-md-4">
-                                    <nav aria-label="Page navigation">
-                                        <ul class="pagination">
-                                            <li class="disabled">
-                                                <a href="pagina1.jsp" aria-label="Previous">
-                                                    <span aria-hidden="true">&laquo;</span>
-                                                </a>
-                                            </li>
-                                            <li class="active"><a href="#">1</a></li>
-                                            <li ><a href="pagina2.jsp">2</a></li>
-                                            <li >
-                                                <a href="pagina2.jsp" aria-label="Next">
-                                                    <span aria-hidden="true">&raquo;</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                  
+                                </div>
+                                <div class="col-md-4 pagination">
+                                    <a href="BASICO/pagina1.jsp"><button type="button" class="btn btn-info ">Proximo Modulo
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </button>   </a>   
+
                                 </div>
                             </div>
                         </div>
@@ -80,5 +67,6 @@
         </div>
 
         <%@ include file="../PRE-FABRICADO/rodape.jsp" %>
+    
     </body>
 </html>

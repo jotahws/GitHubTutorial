@@ -17,7 +17,7 @@
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
-        
+
         <div class="container">
             <div class="container text-left">    
                 <div class="row content">
@@ -52,12 +52,44 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <h2>Ipsumsoto</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <!--Corpo das Paginações -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination">
+                                            <li>
+                                                <a href="pagina1.jsp" aria-label="Previous">
+                                                    <span aria-hidden="true">&laquo;</span>
+                                                </a>
+                                            </li>
+                                            <li ><a href="pagina1.jsp">1</a></li>
+                                            <li class="active"><a href="#">2</a></li>
+                                            <li class="disabled" >
+                                                <a href="#" aria-label="Next">
+                                                    <span aria-hidden="true">&raquo;</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="col-md-4 pagination">
+                                    <a href="../BRANCH/pagina1.jsp"><button type="button" class="btn btn-info ">Proximo Modulo
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </button>   </a>   
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
         <%@ include file="../PRE-FABRICADO/rodape.jsp" %>
-    
+
     </body>
 </html>

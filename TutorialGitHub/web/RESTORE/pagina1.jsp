@@ -1,6 +1,6 @@
 <%-- 
     Document   : pagina1
-    Created on : 03/05/2017, 16:39:48
+    Created on : 10/05/2017, 13:26:02
     Author     : MauMau
 --%>
 
@@ -17,6 +17,7 @@
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
+        
         <div class="container">
             <div class="container text-left">    
                 <div class="row content">
@@ -25,12 +26,12 @@
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
-                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item active">Add</a>
+                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item">Add</a>
                             <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
-                            <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item">Branch</a>
+                            <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item ">Branch</a>
                             <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
                             <a href="${pageContext.request.contextPath}/TAG/pagina1.jsp" class="list-group-item">Tag</a>
-                            <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
+                            <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item active">Restore</a>
                         </div>
                     </div>
 
@@ -41,7 +42,12 @@
                             <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
                             <li><a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp">Create</a></li>
-                            <li class="active">Add </li>
+                            <li><a href="${pageContext.request.contextPath}/ADD/pagina1.jsp">Add</a></li>
+                            <li><a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp">Commit</a></li>
+                            <li><a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp">Branch</a></li>
+                            <li><a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp">Merge</a></li>
+                            <li><a href="${pageContext.request.contextPath}/TAG/pagina1.jsp">Tag</a></li>
+                            <li class="active">Restore </li>
                         </ol>
                         <h1>Terminal</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -80,5 +86,6 @@
         </div>
 
         <%@ include file="../PRE-FABRICADO/rodape.jsp" %>
+    
     </body>
 </html>
