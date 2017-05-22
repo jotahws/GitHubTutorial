@@ -25,7 +25,7 @@
                     <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/WEB/web.jsp" class="list-group-item active">Web</a>
                         <div class="list-group">
-                            <a href="${pageContext.request.contextPath}/BASICO/pagina1.jsp" class="list-group-item">Basico</a>
+                            <a href="${pageContext.request.contextPath}/WEB/BASICO/pagina1.jsp" class="list-group-item">Basico</a>
                             <a href="${pageContext.request.contextPath}/CLONE/pagina1.jsp" class="list-group-item">Clone</a>
                             <a href="${pageContext.request.contextPath}/FORK/pagina1.jsp" class="list-group-item">Fork</a>
                             <a href="${pageContext.request.contextPath}/GRAFICOS/pagina1.jsp" class="list-group-item ">Graficos</a>

@@ -40,7 +40,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
                                     <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
-                                    <li><a href="${pageContext.request.contextPath}/WEB/web.jsp">Web</a></li>
+                                    <li><a href="${pageContext.request.contextPath}/WEB/">Web</a></li>
                                 </ul>
                             </li>
                             <li><a href="${pageContext.request.contextPath}/sobre.jsp">Sobre nós</a></li>

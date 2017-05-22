@@ -28,7 +28,7 @@
                         <a class="bottom btn btn-primary" href="terminal.jsp" >
                             Terminal
                         </a>
-                        <a class="bottom btn btn-primary" href="WEB/web.jsp" >
+                        <a class="bottom btn btn-primary" href="WEB/" >
                             Web
                         </a>
                     </div>

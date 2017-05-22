@@ -22,19 +22,18 @@
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
-                    <div class="list-group list-group-root col-md-2 sidenav">
+             <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item active">Create</a>
-                            <a href="${pageContext.request.contextPath}/ADD/add1.jsp" class="list-group-item">Add</a>
-                            <a href="${pageContext.request.contextPath}/COMMIT/commit1.jsp" class="list-group-item">Commit</a>
-                            <a href="${pageContext.request.contextPath}/BRANCH/branch1.jsp" class="list-group-item">Branch</a>
-                            <a href="${pageContext.request.contextPath}/MERGE/merge1.jsp" class="list-group-item">Merge</a>
-                            <a href="${pageContext.request.contextPath}/TAG/tag1.jsp" class="list-group-item">Tag</a>
-                            <a href="${pageContext.request.contextPath}/RESTORE/restore1.jsp" class="list-group-item">Restore</a>
+                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item ">Add</a>
+                            <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
+                            <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item ">Branch</a>
+                            <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
+                            <a href="${pageContext.request.contextPath}/TAG/pagina1.jsp" class="list-group-item">Tag</a>
+                            <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
                         </div>
                     </div>
-
                     <!-- Corpo do modulo -->
                     <div class="col-sm-10 text-left conteudoCentro"> 
                         <!-- Caminho do modulo -->

@@ -17,16 +17,16 @@
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
-        
+
         <div class="container">
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
-                    <div class="list-group list-group-root col-md-2 sidenav">
+             <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
-                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item">Add</a>
+                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item ">Add</a>
                             <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
                             <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item active">Branch</a>
                             <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
@@ -41,9 +41,6 @@
                         <ol class="breadcrumb">
                             <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
-                            <li><a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp">Create</a></li>
-                            <li><a href="${pageContext.request.contextPath}/ADD/pagina1.jsp">Add</a></li>
-                            <li><a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp">Commit</a></li>
                             <li class="active">Branch </li>
                         </ol>
                         <h1>Terminal</h1>
@@ -83,6 +80,6 @@
         </div>
 
         <%@ include file="../PRE-FABRICADO/rodape.jsp" %>
-    
+
     </body>
 </html>

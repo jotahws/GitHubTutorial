@@ -22,11 +22,11 @@
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
-                    <div class="list-group list-group-root col-md-2 sidenav">
+             <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
-                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item">Add</a>
+                            <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item ">Add</a>
                             <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
                             <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item active">Branch</a>
                             <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
@@ -34,16 +34,12 @@
                             <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
                         </div>
                     </div>
-
                     <!-- Corpo do modulo -->
                     <div class="col-sm-10 text-left conteudoCentro"> 
                         <!-- Caminho do modulo -->
                         <ol class="breadcrumb">
                             <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
-                            <li><a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp">Create</a></li>
-                            <li><a href="${pageContext.request.contextPath}/ADD/pagina1.jsp">Add</a></li>
-                            <li><a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp">Commit</a></li>
                             <li class="active">Branch </li>
                         </ol>
                         <h1>Terminal</h1>
