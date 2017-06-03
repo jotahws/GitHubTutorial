@@ -13,7 +13,7 @@
         <script src="../BOOTSTRAP/js/bootstrap.min.js"></script>
         <link rel=stylesheet type="text/css" href="../CSS/stylesheet.css"> 
         <link href="../BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet">
-        <title>JSP Page</title>
+        <title>Tutorial - Create</title>
     </head>
     <body>
 

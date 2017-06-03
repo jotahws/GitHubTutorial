@@ -14,7 +14,7 @@
         <link rel=stylesheet type="text/css" href="../CSS/stylesheet.css"> 
         <link href="../BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet">
 
-        <title>CREATE</title>
+        <title>Tutorial - Create</title>
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
