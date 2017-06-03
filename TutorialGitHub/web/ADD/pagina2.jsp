@@ -87,7 +87,7 @@
                         <!-- QUESTÕES 1 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading">Questão 1) o que add faz</div>
+                            <div class="panel-heading"><b>Questão 1)</b> o que add faz</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
@@ -108,7 +108,7 @@
                         <!-- QUESTÕES 2 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading">Questão 2) o que add faz</div>
+                            <div class="panel-heading"><b>Questão 2)</b> alguem alguem alguem</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
@@ -130,7 +130,7 @@
                         <!-- QUESTÕES 3 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading">Questão 2) o que add faz</div>
+                            <div class="panel-heading"><b>Questão 3)</b> o que add faz</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
