@@ -20,23 +20,44 @@
             <div class="row content">
 
                 <div class="col-md-12 text-left conteudoCentro"> 
-                    <div class="col-md-9">
-                        <h2>O que é um repositório de Código?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="col-md-8">
+                        <h2>O que é Git?</h2>
+                        <p>Git é um sistema de controle de versão e gerenciamento de código fonte. Ou seja, é um software com a finalidade de gerenciar diferentes versões no desenvolvimento de um projeto. Esse sistema é principalmente usado para controlar todas as versões do software, pois ele armazena o histórico de qualquer alteração do código fonte.</p>
+                        <p>Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central.</p>
                         <hr>
+                        <h2>Quais são as vantagens de usar um repositório Git?</h2>
+                        <p>
+                        <table class="table">
+                            <tr>
+                                <td >
+                                    <p><b>Controle do histórico</b>:<br> É muito fácil desfazer o histórico de desenvolvimento e também resgatar versões mais antigas e estáveis do software. A maioria das implementações permitem analisar as alterações com detalhes, desde a primeira versão até a última.</p>
+                                </td>
+                                <td>
+                                    <p><b>Trabalho em equipe</b>:<br> Um sistema de controle de versão permite que diversas pessoas trabalhem sobre o mesmo conjunto de documentos ao mesmo tempo e diminui o desgaste provocado por problemas com conflitos de edições. </p>
+                                </td>
+                                <td>
+                                    <p><b>Ramificação de projeto</b>:<br> A maioria das implementações possibilita a divisão do projeto em várias linhas de desenvolvimento, que podem ser trabalhadas paralelamente, sem que uma interfira na outra.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        </p>
                         <h2>Por que usar GitHub?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>O GitHub é um dos hospedeiros que fazem uso do sistema Git para que os desenvolvedores possam depositar seu código na web de forma gratuita. Dessa forma, todos os integrantes do projeto podem trabalhar e contribuir para o desenvolvimento depositando seu código na nuvem do GitHub.
+                        </p>
+                        <p>O GitHub hoje conta com mais de 57 milhões de repositórios de projetos comercias, tais como WordPress, Linux, JQuery, Firefox, entre outros, sendo uma das maiores plataformas de hospedagem de código existentes, com mais de 3 milhões de usuários ativos.
+                        </p>
                         <hr>
                         <h2>Sobre o Tutorial</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>Neste tutorial você irá aprender a como hospedar um código no GitHub, desde a criação do repositório até as funções mais complexas como criar uma ramificação do código ou mesclar os códigos de vários contribuintes em um mesmo arquivo
+                        </p>
                         <br>
                         <div class="text-center botao-final">
                             <a href="guiabasico.jsp" class="bottom btn-lg btn-primary" >Iniciar o Tutorial</a>
                         </div>
                     </div>
-                    <div class="list-group col-md-3 sidenav">
-                        <img alt="Octocat" src='IMAGENS/Octocat7.png' width="300">
-                    </div>
+                    <div class="list-group col-md-4 sidenav">
+                        <img alt="Octocat" src='IMAGENS/octocatBalaoHome.png' class="img-side">
+                    </div>                    
                 </div>
             </div>
         </div>

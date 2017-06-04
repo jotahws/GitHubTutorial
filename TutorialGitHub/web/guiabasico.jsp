@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <title>Guia Básico - GitHub Tutorial</title>
+        <title>Getting started - GitHub Tutorial</title>
     </head>
     <body>
         <%@ include file="PRE-FABRICADO/cabecalho.jsp" %>
@@ -19,22 +19,32 @@
             <div class="row">
 
                 <div class="col-md-12 text-left conteudoCentro"> 
-                    <h2>Guia Básico</h2>                    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                                           
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        
-                    <br>
-
-                    <div>
-                        <a class="bottom btn btn-primary" href="terminal.jsp" >
-                            Terminal
-                        </a>
-                        <a class="bottom btn btn-primary" href="WEB/" >
-                            Web
-                        </a>
+                    <div class="col-md-8">
+                        <div>
+                            <h1>Prepare tudo</h1>
+                            <h2>Download do Git</h2>
+                            <p>Para você poder usar todas as funções que o Git te oferece, é preciso primeiramente baixar o serviço Git no seu computador. Ele está disponível para <b>Mac OSX, Windows, Linux e Solaris</b>.</p>  
+                            <a href="https://git-scm.com/downloads" target="_blank"><p class="text-center"><img alt="link para download" width="450" src='IMAGENS/octocat-Downl.png'/><p></a>
+                            <hr>
+                            <h2>Quais são formas de usar?</h2>
+                            <p>O GitHub possui duas formas principais para manusear seus comandos: pelo Terminal ou pelo GitHub Desktop.</p>
+                            <p>O terminal</p>
+                            <p>O GitHub Desktop</p>
+                            <hr>
+                            <div class="text-center">
+                                <a class="bottom btn btn-lg btn-primary" href="terminal.jsp" >
+                                    Me ensine!
+                                </a>
+                                <!--                                <a class="bottom btn btn-primary" href="WEB/" >
+                                                                    Web
+                                                                </a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="IMAGENS/octocat-OS.png" class="img-side"/>
                     </div>
                 </div>
-
             </div>
         </div>
 
