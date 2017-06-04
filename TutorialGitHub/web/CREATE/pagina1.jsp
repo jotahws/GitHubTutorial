@@ -56,14 +56,15 @@
                                 <div class="col-md-4">
                                     <nav aria-label="Page navigation">
                                         <ul class="pagination">
-                                            <li class="disabled" >
-                                                <a href="#" aria-label="Previous">
+                                            <li class="disabled">
+                                                <a href="pagina1.jsp" aria-label="Previous">
                                                     <span aria-hidden="true">&laquo;</span>
                                                 </a>
                                             </li>
                                             <li class="active"><a href="#">1</a></li>
-                                            <li><a href="pagina2.jsp">2</a></li>
-                                            <li>
+                                            <li ><a href="pagina2.jsp">2</a></li>
+                                            <li ><a href="pagina3.jsp">3</a></li>
+                                            <li >
                                                 <a href="pagina2.jsp" aria-label="Next">
                                                     <span aria-hidden="true">&raquo;</span>
                                                 </a>

@@ -63,6 +63,7 @@
                                             </li>
                                             <li class="active"><a href="#">1</a></li>
                                             <li ><a href="pagina2.jsp">2</a></li>
+                                            <li ><a href="pagina3.jsp">3</a></li>
                                             <li >
                                                 <a href="pagina2.jsp" aria-label="Next">
                                                     <span aria-hidden="true">&raquo;</span>
