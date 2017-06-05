@@ -73,6 +73,31 @@
                             </tr>
                         </table>
 
+                        <!--Corpo das Paginações -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination">
+                                            <li class="disabled">
+                                                <a href="" aria-label="Previous">
+                                                    <span aria-hidden="true">&laquo;</span>
+                                                </a>
+                                            </li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="terminal2.jsp">2</a></li>
+                                            <li>
+                                                <a href="terminal2.jsp" aria-label="Next">
+                                                    <span aria-hidden="true">&raquo;</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-md-4 pagination"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
