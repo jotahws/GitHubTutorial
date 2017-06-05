@@ -43,12 +43,13 @@
                             <li class="active">Create</li>
                         </ol>
                         <h1>Create</h1>
-                        <p>Um </p>
-                        <hr>
-                        <h2>Lorenzoti</h2>
-                        <p></p>
-                        <h2>Ipsumsoto</h2>
-                        <p></p>
+                        <p>Depois que você criou o diretório do seu projeto pelo terminal, você deverá mostrar ao Git que essa pasta é um <b>repositório</b> Git.</p>
+                        <div class="col-md-4 padding-comando">
+                            <b>Dentro do diretório criado, você deverá digitar o comando <code>git init</code></b><br><br>
+                            <p>Feito isso, o seu diretório já estará pronto para entender todos os comandos GIT que você aprenderá a seguir.</p>
+                            <p>Vale lembrar que quando se cria um repositório com git init, este será um repositório local, ou seja, não estará armazenado no servidor do GitHub.</p>
+                        </div>
+                        <div class="col-md-8"><img src="${pageContext.request.contextPath}/IMAGENS/git init.png"/></div>
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
