@@ -43,9 +43,14 @@
                             <li class="active">Create</li>
                         </ol>
                         <h1>Create</h1>
-                        <h3>Video aula</h3>
-                        <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
-                    <!--Corpo das Paginações -->
+                        <h3>Clonando um repositório</h3>
+                        <p>Caso você queira usar um repositório no servidor para compartilhar com o seu grupo de desenvolvedores, você primeiramente deverá criar o repositório no site <a href="www.github.com">www.github.com</a>. Lá você deverá criar a sua conta GitHub e criar um repositório. Feito isso, o repositório estará pronto para ser clonado.</p>
+                        <div class="col-md-4 padding-comando">
+                            <p><b>Para clonar um repositório remoto é muito simples: vá até a pasta -pelo terminal- em que você deseja clonar o projeto e digite o código <code>git clone https://github.com/Usuario/Repositorio</code></b></p>
+                            <p>Pronto! Seu diretório estará pronto para você começar a trabalhar.</p>
+                        </div>
+                        <div class="col-md-8"><img src="${pageContext.request.contextPath}/IMAGENS/git-clone.png"/></div>
+                        <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="col-md-4"></div>

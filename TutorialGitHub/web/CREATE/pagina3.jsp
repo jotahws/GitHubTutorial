@@ -59,17 +59,17 @@
                         <!-- QUESTÕES 1 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 1)</b> o que add faz</div>
+                            <div class="panel-heading"><b>Questão 1) </b> Qual é o comando usado para criar um repositório local?</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-1" value="1">OPTION 1 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-1" value="1"><code>git init</code></label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-2" value="2">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-2" value="2"><code>git create</code></label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-3" value="3">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-3" value="3"><code>git add</code></label>
                                 </div>
 
                                 <button class="btn btn-sm btn-default" onclick="validarRadios('questao1')">Responder</button>
@@ -80,17 +80,17 @@
                         <!-- QUESTÕES 2 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 2)</b> alguem alguem alguem</div>
+                            <div class="panel-heading"><b>Questão 2)</b>  Qual é o comando usado para criar um repositório remoto?</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-1" value="1">OPTION 1 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-1" value="1"><code>git create ~repositorio~</code></label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-2" value="2">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-2" value="2"><code>git clone ~repositorio~</code></label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-3" value="3">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-3" value="3"><code>git commit ~repositorio~</code></label>
                                 </div>
 
                                 <button class="btn btn-sm btn-default" onclick="validarRadios('questao2')">Responder</button>
@@ -102,17 +102,17 @@
                         <!-- QUESTÕES 3 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 3)</b> o que add faz</div>
+                            <div class="panel-heading"><b>Questão 3) </b>Assinale a FALSA:</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-1" value="1">OPTION 1 DAS LOCA</label>
+                                    <label><input type="radio" name="questao3" id="qst3-1" value="1">Não é obrigatória a indicação do repositório no comando<code>git clone</code></label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-2" value="2">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao3" id="qst3-2" value="2"><code>git init</code> cria um repositório local</label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-3" value="3">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao3" id="qst3-3" value="3"><code>git clone</code> cria um repositório remoto</label>
                                 </div>
 
                                 <button class="btn btn-sm btn-default" onclick="validarRadios('questao3')">Responder</button>
