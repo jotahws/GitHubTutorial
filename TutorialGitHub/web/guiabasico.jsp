@@ -43,9 +43,9 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="IMAGENS/octocat-OS.png" class="img-side"/>
-                        <p class="text-center"><img width="370px" src="IMAGENS/GitTerminal.png"/>Git Terminal</p>
-                        <p class="text-center"><img width="370px" src="IMAGENS/GitDesktop.png"/>GitHub Desktop</p>
+                        <img src="IMAGENS/octocat-OS.png" width="370" class="img-side"/>
+                        <p class="text-center"><img width="370" src="IMAGENS/GitTerminal.png"/>Git Terminal</p>
+                        <p class="text-center"><img width="370" src="IMAGENS/GitDesktop.png"/>GitHub Desktop</p>
                     </div>
                 </div>
             </div>

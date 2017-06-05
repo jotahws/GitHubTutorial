@@ -29,7 +29,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                        
+                        
                         </button>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
@@ -40,7 +40,6 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="${pageContext.request.contextPath}/guiabasico.jsp">Guia Básico</a></li>
                                     <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
-                                    <li><a href="${pageContext.request.contextPath}/WEB/">Web</a></li>
                                 </ul>
                             </li>
                             <li><a href="${pageContext.request.contextPath}/sobre.jsp">Sobre nós</a></li>
