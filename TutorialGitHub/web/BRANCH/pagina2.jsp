@@ -43,12 +43,13 @@
                             <li class="active">Branch </li>
                         </ol>
                         <h1>Branch</h1>
-                        <h3>Video aula</h3>
+
                         <div class="col-md-12">
                             <h3>Exemplo terminal</h3>    
                             <img alt="Terminal branch" src='../IMAGENS/terminalcommit.png' width="900">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
+                            <h3>Video aula</h3>
                             <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
                         </div>
                         <!--Corpo das Paginações -->

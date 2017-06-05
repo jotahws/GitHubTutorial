@@ -22,7 +22,7 @@
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
-             <div class="list-group list-group-root col-md-2 sidenav">
+                    <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
@@ -44,25 +44,45 @@
                             <li class="active">Branch </li>
                         </ol>
                         <h1>Branch</h1>                        
-                        <div class="col-md-9">
-                            <p>O segundo módulo a ser tratado, será o de Add. Um dos comando básicos para manipular arquivos.</p>
-                            <p><b>Descrição: </b>O comando add possui duas funcionalidades interessantes e fundamentais a serem tratadas aqui.
-                                A primeira função é aplicar o "git add" em um arquivo qualquer, fazendo assim o preparado de arquivo recem criado ou ja existente
-                                para ser commitado(termo será falado mais para frente) ou salvo no diretório principal do git. O arquivo irá permanecer
-                                em um tipo de pré-repositório , chamado de index, até que suas mudanças sejam salvas no repositório principal.
-                                A segunda função descreve que é possivel monitorar um arquivo, ou seja o git irá ver um arquivo que não existia no
-                                ultimo commit, inclundo este arquivo nas capturas de commit. Fazendo isso é possivel evitar dar commit em arquivos
-                                indesajaveis, como arquivos binários que foram gerados.
+                        <div class="col-md-7">
+                            <p>O quarto módulo a ser tratado, será o de branch e seu conceito. 
+                                Sem entender completamente seu funcionamento, você poderá estar colocando
+                                em risco seus projetos.
                             </p>
+
                         </div>
-                        <div class="col-md-3">
-                            <img alt="Add" src='../IMAGENS/Octocat18.png' class="img-responsive">
-                            
+                        <div class="col-md-5">
+                            <img alt="Add" src='../IMAGENS/branchimg.png'  width="300" >
+
                         </div>
                         <div class="col-md-12">
-                            <p><b>Notação:</b> git add arquivo.extensão </p>
+                            <p><b>Descrição: </b>
+                            </p>
+                            <p><b>Notação:</b>  </p> 
+                            <table class="table">
+                                <tr>
+                                    <th>Comando</th>
+                                    <th>Significado</th>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git branch 'nome-nova-branch' </code> </p></td>
+                                    <td><p>Cria uma nova branch no projeto (retire as aspas).   </p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git push -u origin</code>  </p></td>
+                                    <td><p>Envia apenas uma branch para o diretório remoto</p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git -a branch</code>  </p></td>
+                                    <td><p>Lista todas as branchs</p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git -d -r origin/'nome-da-branch'</code>  </p></td>
+                                    <td><p>Remove uma branch especifica (retire as aspas)</p> </td>
+                                </tr>
+                            </table>
                         </div>                                                                
-                        
+
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">

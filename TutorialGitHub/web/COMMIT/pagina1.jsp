@@ -51,15 +51,31 @@
                             <img alt="Add" src='../IMAGENS/commitimg.png' width="370" >
                         </div>
                         <div class="col-md-12">
-                            <p><b>Descrição: </b>O comando add possui duas funcionalidades interessantes e fundamentais a serem tratadas aqui.
-                                A primeira função é aplicar o "git add" em um arquivo qualquer, fazendo assim o preparado de arquivo recem criado ou ja existente
-                                para ser commitado(termo será falado mais para frente) ou salvo no diretório principal do git. O arquivo irá permanecer
-                                em um tipo de pré-repositório , chamado de index, até que suas mudanças sejam salvas no repositório principal.
-                                A segunda função descreve que é possivel monitorar um arquivo, ou seja o git irá ver um arquivo que não existia no
-                                ultimo commit, inclundo este arquivo nas capturas de commit. Fazendo isso é possivel evitar dar commit em arquivos
-                                indesajaveis, como arquivos binários que foram gerados.
+                            <p><b>Descrição: </b>
                             </p>
-                            <p><b>Notação:</b> git add arquivo.extensão </p>
+                            <p><b>Notação:</b>  </p> 
+                            <table class="table">
+                                <tr>
+                                    <th>Comando</th>
+                                    <th>Significado</th>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git commit arquivo.extensão - m "Comentarios"</code> </p></td>
+                                    <td><p>Faz um commit local do arquivo escrito</p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git commit -a - m "Comentarios"</code> </p></td>
+                                    <td><p>Faz um commit local de todos os arquivos modificados pelo comando -a </p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git push</code> </p></td>
+                                    <td><p>Envia todas as alterações da branch local para o diretório remoto</p> </td>
+                                </tr>
+                                <tr>
+                                    <td><p> <code>git push --all</code>  </p></td>
+                                    <td><p>Envia todas as alterações de todas as branchs para o diretório remoto</p> </td>
+                                </tr>
+                            </table>
                         </div>
                         <!--Corpo das Paginações -->
                         <div class="row">
