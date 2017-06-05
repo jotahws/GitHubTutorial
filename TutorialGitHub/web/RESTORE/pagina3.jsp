@@ -59,17 +59,17 @@
                         <!-- QUESTÕES 1 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 1)</b> o que add faz</div>
+                            <div class="panel-heading"><b>Questão 1)</b>O que o comando <code>git reset</code> faz?</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-1" value="1">OPTION 1 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-1" value="1">Restaura o estado atual do meu repositório para um estado anterior.</label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-2" value="2">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-2" value="2">Restaura todo um repositório, equivalente ao comando  <code>git init</code>.</label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao1" id="qst1-3" value="3">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao1" id="qst1-3" value="3">Digitar <code>git reset</code>apaga commits anteriores mantendo o atual.</label>
                                 </div>
 
                                 <button class="btn btn-sm btn-default" onclick="validarRadios('questao1')">Responder</button>
@@ -80,17 +80,17 @@
                         <!-- QUESTÕES 2 ADD -->
                         <div class="panel panel-info col-md-4 text-left">
                             <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 2)</b> alguem alguem alguem</div>
+                            <div class="panel-heading"><b>Questão 2)</b> Quando pode-se utilizar o comando  <code>git reset</code>?</div>
                             <!-- List group -->
                             <div class="input-group">     
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-1" value="1">OPTION 1 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-1" value="1">Em repositórios compartilhados.</label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-2" value="2">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-2" value="2">Sempre que precisar reverter um trabalho adicionado.</label>
                                 </div>
                                 <div class="radio" >
-                                    <label><input type="radio" name="questao2" id="qst2-3" value="3">OPTION 2 DAS LOCA</label>
+                                    <label><input type="radio" name="questao2" id="qst2-3" value="3">Nunca, este comando apaga meu repositório.</label>
                                 </div>
 
                                 <button class="btn btn-sm btn-default" onclick="validarRadios('questao2')">Responder</button>
@@ -99,27 +99,7 @@
                             </div>                           
                         </div>
 
-                        <!-- QUESTÕES 3 ADD -->
-                        <div class="panel panel-info col-md-4 text-left">
-                            <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 3)</b> o que add faz</div>
-                            <!-- List group -->
-                            <div class="input-group">     
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-1" value="1">OPTION 1 DAS LOCA</label>
-                                </div>
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-2" value="2">OPTION 2 DAS LOCA</label>
-                                </div>
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-3" value="3">OPTION 2 DAS LOCA</label>
-                                </div>
-
-                                <button class="btn btn-sm btn-default" onclick="validarRadios('questao3')">Responder</button>
-                                <p id="acerto3" style="color:green"></p>
-                                <p id="erro3" style="color:red"></p>
-                            </div>                           
-                        </div>
+                        
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
@@ -144,12 +124,7 @@
                                     </nav>
                                 </div>
 
-                                <div class="col-md-4 pagination">
-                                    <a href="../WEB/"><button type="button" class="btn btn-info ">GitHub Web
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </button>   </a>   
-
-                                </div>
+             
                             </div>
                         </div>
                     </div>

@@ -42,13 +42,13 @@
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
                             <li class="active">Restore </li>
                         </ol>
-                        <h1>Terminal</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h1>Restore</h1>
+                        <p>Quando você preciar reverter o seu trabalho atual para um estado anterior é possível restaurar seu trabalho. Uma das formas é utilizar o comando <code>git reset</code>. Este comando permite reverter edições como <code>git add</code>, <code>git commit</code>, <code>git merge</code> ou <code>git pull</code>. <a href="https://git-scm.com/docs/git-reset" >Clique aqui para ver a documentação completa sobre git-reset</a>.</p>
                         <hr>
-                        <h2>Lorenzoti</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <h2>Ipsumsoto</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       
+                        <p>Neste módulo ensinaremos a utilizar o <code>git reset</code> para reverter o comando <code>git add</code>.</p>
+
+                        
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">

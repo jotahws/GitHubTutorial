@@ -43,8 +43,10 @@
                             <li class="active">Restore </li>
                         </ol>
                         <h1>Restore</h1>
-                        <h3>Video aula</h3>
-                        <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
+                        <b>Revertendo git-add</b>
+                        <p>Após usar o comando <code>git add</code>, basta usar o comando <code>git reset</code> que as mudanças salvas serão descartas. Assim você pode apagar, usar <code>git pull</code> sem ter conflito de arquivos. Então é só executar <code>git add</code> novamente para salvar suas mudanças. Lembre-se que você pode utilizar o comando  <code>git add</code> para verificar o estado de modificações em seu repositório.</p>
+                        <img src="${pageContext.request.contextPath}/IMAGENS/restore1.png" width="475">
+                        <img src="${pageContext.request.contextPath}/IMAGENS/restore2.png" width="475">
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
@@ -57,6 +59,7 @@
                                                     <span aria-hidden="true">&laquo;</span>
                                                 </a>
                                             </li>
+                                            
                                             <li ><a href="pagina1.jsp">1</a></li>
                                             <li class="active"><a href="#">2</a></li>
                                             <li ><a href="pagina3.jsp">3</a></li>
@@ -69,12 +72,7 @@
                                     </nav>
                                 </div>
 
-                                <div class="col-md-4 pagination">
-                                    <a href="../WEB/"><button type="button" class="btn btn-info ">GitHub Web
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </button>   </a>   
 
-                                </div>
                             </div>
                         </div>
                     </div>
