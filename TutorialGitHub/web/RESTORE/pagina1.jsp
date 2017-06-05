@@ -46,7 +46,7 @@
                         <p>Quando você preciar reverter o seu trabalho atual para um estado anterior é possível restaurar seu trabalho. Uma das formas é utilizar o comando <code>git reset</code>. Este comando permite reverter edições como <code>git add</code>, <code>git commit</code>, <code>git merge</code> ou <code>git pull</code>. <a href="https://git-scm.com/docs/git-reset" >Clique aqui para ver a documentação completa sobre git-reset</a>.</p>
                         <hr>
                        
-                        <p>Neste módulo ensinaremos a utilizar o <code>git reset</code> para reverter o comando <code>git add</code></p>
+                        <p>Neste módulo ensinaremos a utilizar o <code>git reset</code> para reverter o comando <code>git add</code>.</p>
 
                         
                         <!--Corpo das Paginações -->
