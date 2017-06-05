@@ -45,10 +45,7 @@
                         <h3>Exemplo terminal</h3>    
                         <img alt="Terminal add" src='../IMAGENS/terminaladd.png' width="900">
                     </div>
-                    <div class="col-md-12">
-                        <h3>Video aula</h3>
-                        <!--<iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
-                   --> </div>
+              
 
                     <!--Corpo das Paginações -->
                     <div class="row">
