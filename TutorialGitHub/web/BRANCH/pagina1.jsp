@@ -56,7 +56,12 @@
 
                         </div>
                         <div class="col-md-12">
-                            <p><b>Descrição: </b>
+                            <p><b>Descrição: </b> Na branch existe um ponteiro, possibilianto assim você navegar entre uma branch e outra.
+                                Quando for criado uma nova branch, além da padrão (master), também é um ponteiro para você poder se mover,
+                                Basicamente, criar uma nova branch é abrir uma nova linha do tempo com o conteúdo do seu projeto nessa nova
+                                branch, para que você usuário possa fazer suas edições no arquivo e depois retornar tudo que foi editado da
+                                sua branch para a branch princiapal (master), possibilitando assim que diversos colaboradores trabalhem em
+                                cima do projeto simultaneamente, sem corromper o mesmo.
                             </p>
                             <p><b>Notação:</b>  </p> 
                             <table class="table">

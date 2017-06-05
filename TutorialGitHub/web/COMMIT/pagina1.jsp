@@ -51,7 +51,12 @@
                             <img alt="Add" src='../IMAGENS/commitimg.png' width="370" >
                         </div>
                         <div class="col-md-12">
-                            <p><b>Descrição: </b>
+                            <p><b>Descrição: </b> O commit se estende a utilizar os comandos git commit e git push. Após ser criado ou alterado determinado 
+                                arquivo em seu repositório, o usuário poderá utiliza-lo para salvar todas as alterações ou de somente um arquivo 
+                                para o seu repositório local, após isso, executar o comando git push para transferir essas alterações para o
+                                repositório remoto e salvo para que seu colaboradores possam carregar essas informações. Para um melhor controle
+                                de suas informações, deve-se utilizar o comando add antes de commitar algo. Para se certificar se seu commit ocorreu 
+                                tudo certo, utilize comando status, podendo monitorar se tem algum arquivo ainda a ser commitado ou que esta sendo monitorado.
                             </p>
                             <p><b>Notação:</b>  </p> 
                             <table class="table">

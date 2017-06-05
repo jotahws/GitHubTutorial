@@ -5,8 +5,7 @@ function validarRadios(qualQuestao) {
     document.getElementById("erro").innerHTML = "";
     document.getElementById("acerto2").innerHTML = "";
     document.getElementById("erro2").innerHTML = "";
-    document.getElementById("acerto3").innerHTML = "";
-    document.getElementById("erro3").innerHTML = "";
+
     //CONTROLA ACERTO QUESTÃO 1
     if (qualQuestao === 'questao1') {//CONTROLA ACERTO QUESTÃO 1
         if (document.getElementById("qst1-1").checked === true) {
@@ -20,14 +19,6 @@ function validarRadios(qualQuestao) {
             document.getElementById("acerto2").innerHTML = "Parabéns! Você acertou.";
         } else {
             document.getElementById("erro2").innerHTML = "Que pena! Você errou.";
-        }
-    }
-    //CONTROLA ACERTO QUESTÃO 1
-    if (qualQuestao === 'questao3') {//CONTROLA ACERTO QUESTÃO 1
-        if (document.getElementById("qst3-1").checked === true) {
-            document.getElementById("acerto3").innerHTML = "Parabéns! Você acertou.";
-        } else {
-            document.getElementById("erro3").innerHTML = "Que pena! Você errou.";
         }
     }
 }
