@@ -17,9 +17,7 @@
     </head>
     <body>
         <%@ include file="../PRE-FABRICADO/cabecalho.jsp" %>
-        <audio controls id="errou" style="visibility: hidden;"> 
-            <source src="${pageContext.request.contextPath}/JS/errou.mp3" type="audio/mp3" >
-        </audio>
+
         <div class="container">
             <div class="container text-left">    
                 <div class="row content">
@@ -31,8 +29,6 @@
                             <a href="${pageContext.request.contextPath}/ADD/pagina1.jsp" class="list-group-item ">Add</a>
                             <a href="${pageContext.request.contextPath}/COMMIT/pagina1.jsp" class="list-group-item active">Commit</a>
                             <a href="${pageContext.request.contextPath}/BRANCH/pagina1.jsp" class="list-group-item ">Branch</a>
-                            <a href="${pageContext.request.contextPath}/MERGE/pagina1.jsp" class="list-group-item">Merge</a>
-                            <a href="${pageContext.request.contextPath}/TAG/pagina1.jsp" class="list-group-item">Tag</a>
                             <a href="${pageContext.request.contextPath}/RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
                         </div>
                     </div>

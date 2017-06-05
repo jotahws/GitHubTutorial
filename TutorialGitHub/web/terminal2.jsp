@@ -26,8 +26,6 @@
                             <a href="ADD/pagina1.jsp" class="list-group-item">Add</a>
                             <a href="COMMIT/pagina1.jsp" class="list-group-item">Commit</a>
                             <a href="BRANCH/pagina1.jsp" class="list-group-item">Branch</a>
-                            <a href="MERGE/pagina1.jsp" class="list-group-item">Merge</a>
-                            <a href="TAG/pagina1.jsp" class="list-group-item">Tag</a>
                             <a href="RESTORE/pagina1.jsp" class="list-group-item">Restore</a>
                         </div>
                     </div>
