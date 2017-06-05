@@ -15,7 +15,9 @@
         <link href="BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-
+        <audio controls id="errou" style="visibility: hidden;"> 
+            <source src="${pageContext.request.contextPath}/JS/errou.mp3" type="audio/mp3" >
+        </audio>
         <div class="cabecalho">
             <div class="linkcabecalho">
                 <a href="${pageContext.request.contextPath}/index.jsp">

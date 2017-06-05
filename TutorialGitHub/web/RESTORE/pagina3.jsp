@@ -124,15 +124,18 @@
                                     </nav>
                                 </div>
 
-             
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <audio controls id="errou" style="visibility: hidden;"> 
+            <source src="${pageContext.request.contextPath}/JS/errou.mp3" type="audio/mp3" >
+        </audio>
         <%@ include file="../PRE-FABRICADO/rodape.jsp" %>
         <script type="text/javascript" src="../JS/script.js"></script>
+        
     </body>
 </html>

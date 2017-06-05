@@ -10,8 +10,11 @@ function validarRadios(qualQuestao) {
     if (qualQuestao === 'questao1') {//CONTROLA ACERTO QUESTÃO 1
         if (document.getElementById("qst1-1").checked === true) {
             document.getElementById("acerto").innerHTML = "Parabéns! Você acertou.";
+            
         } else {
             document.getElementById("erro").innerHTML = "Que pena! Você errou.";
+            var sound = document.getElementById("errou");
+            sound.play();
         }
     }//CONTROLA ACERTO QUESTÃO 1
     if (qualQuestao === 'questao2') {//CONTROLA ACERTO QUESTÃO 1
@@ -19,6 +22,9 @@ function validarRadios(qualQuestao) {
             document.getElementById("acerto2").innerHTML = "Parabéns! Você acertou.";
         } else {
             document.getElementById("erro2").innerHTML = "Que pena! Você errou.";
+            audio.play();
+            sound = document.getElementById("errou");
+            sound.play();
         }
     }
 }
