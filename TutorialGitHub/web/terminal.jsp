@@ -40,12 +40,38 @@
                             <li class="active">Terminal</li>
                         </ol>
                         <h1>Terminal</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <hr>
-                        <h2>Lorenzoti</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <h2>Ipsumsoto</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>O terminal é um software de interpretador de comandos, responsável por tomar as ações efetivas conforme a orientação do usuário através de comunicação textual. O console de comandos permite ao usuário realizar qualquer interação com o computador, desde que se tenha conhecimento de quais comandos realizar. </p>
+                        <p>Para o nosso curso, precisaremos entender alguns comandos nativos do terminal para que possamos entrar em diretórios, criar pastas ou arquivos, entre outras coisas.</p>
+                        <table class="table">
+                            <tr>
+                                <th>Comando</th>
+                                <th>O que faz</th>
+                            </tr>
+                            <tr>
+                                <td><code>ls</code></td>
+                                <td>O prompt irá te retornar uma lista de arquivos e diretórios que estão detro do seu diretório atual.</td>
+                            </tr>
+                            <tr>
+                                <td><code>cd&nbsp;~diretório~</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                <td>O terminal irá mudar o diretório para o endereço que você colocar. Ex: <code>cd /Users/Sandro/Documents</code> </td>
+                            </tr>
+                            <tr>
+                                <td><code>cd ..</code></td>
+                                <td>Você será redirecionado para um diretório acima do que você atualmente está. Ex. <code>/Users/Sandro/Documents</code> irá para <code>/Users/Sandro</code></td>
+                            </tr>
+                            <tr>
+                                <td><code>pwd</code></td>
+                                <td>Irá te retornar o caminho do diretório em que você está atualmente.</td>
+                            </tr>
+                            <tr>
+                                <td><code>mkdir ~nome~</code></td>
+                                <td>Criará um diretório com o nome especificado dentro do diretório em que você está.</td>
+                            </tr>
+                            <tr>
+                                <td><code>rmdir ~diretório~</code></td>
+                                <td>Irá remover o diretório especificado, caso ele estiver vazio.</td>
+                            </tr>
+                        </table>
 
                     </div>
                 </div>
