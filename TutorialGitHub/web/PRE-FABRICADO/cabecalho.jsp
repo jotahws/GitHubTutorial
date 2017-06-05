@@ -15,9 +15,7 @@
         <link href="BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <audio controls id="errou" style="visibility: hidden;"> 
-            <source src="${pageContext.request.contextPath}/JS/errou.mp3" type="audio/mp3" >
-        </audio>
+    
         <div class="cabecalho">
             <div class="linkcabecalho">
                 <a href="${pageContext.request.contextPath}/index.jsp">
@@ -70,6 +68,9 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="BOOTSTRAP/js/bootstrap.min.js"></script>
+            <audio controls id="errou" style="visibility: hidden;"> 
+            <source src="${pageContext.request.contextPath}/JS/errou.mp3" type="audio/mp3" >
+        </audio>
     </body>
 
 </html>
