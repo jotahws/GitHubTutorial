@@ -22,7 +22,7 @@
             <div class="container text-left">    
                 <div class="row content">
                     <!-- Lista dos Modulos -->
-             <div class="list-group list-group-root col-md-2 sidenav">
+                    <div class="list-group list-group-root col-md-2 sidenav">
                         <a href="${pageContext.request.contextPath}/terminal.jsp" class="list-group-item">Terminal</a>
                         <div class="list-group">
                             <a href="${pageContext.request.contextPath}/CREATE/pagina1.jsp" class="list-group-item ">Create</a>
@@ -44,8 +44,13 @@
                         </ol>
                         <h1>Branch</h1>
                         <h3>Video aula</h3>
-                        <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
-                    
+                        <div class="col-md-12">
+                            <h3>Exemplo terminal</h3>    
+                            <img alt="Terminal branch" src='../IMAGENS/terminalcommit.png' width="900">
+                        </div>
+                        <div class="col-md-6">
+                            <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
+                        </div>
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
@@ -71,7 +76,7 @@
                                 </div>
 
                                 <div class="col-md-4 pagination">
-                                    
+
                                 </div>
                             </div>
                         </div>

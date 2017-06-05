@@ -43,11 +43,26 @@
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
                             <li class="active">Branch </li>
                         </ol>
-                        <h1>Branch</h1>
-                        <p>O quarto módulo a ser tratado, será a de Branch. Serve para fazer um espelho de um determinado repositório.</p>
-                        <p><b>Descrição:</b></p>
-                        <p><b>Notação:</b></p>
-                        <p><b>Exemplo prático:</b></p>
+                        <h1>Branch</h1>                        
+                        <div class="col-md-9">
+                            <p>O segundo módulo a ser tratado, será o de Add. Um dos comando básicos para manipular arquivos.</p>
+                            <p><b>Descrição: </b>O comando add possui duas funcionalidades interessantes e fundamentais a serem tratadas aqui.
+                                A primeira função é aplicar o "git add" em um arquivo qualquer, fazendo assim o preparado de arquivo recem criado ou ja existente
+                                para ser commitado(termo será falado mais para frente) ou salvo no diretório principal do git. O arquivo irá permanecer
+                                em um tipo de pré-repositório , chamado de index, até que suas mudanças sejam salvas no repositório principal.
+                                A segunda função descreve que é possivel monitorar um arquivo, ou seja o git irá ver um arquivo que não existia no
+                                ultimo commit, inclundo este arquivo nas capturas de commit. Fazendo isso é possivel evitar dar commit em arquivos
+                                indesajaveis, como arquivos binários que foram gerados.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img alt="Add" src='../IMAGENS/Octocat18.png' class="img-responsive">
+                            
+                        </div>
+                        <div class="col-md-12">
+                            <p><b>Notação:</b> git add arquivo.extensão </p>
+                        </div>                                                                
+                        
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">

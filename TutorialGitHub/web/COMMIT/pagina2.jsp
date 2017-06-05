@@ -42,10 +42,17 @@
                             <li><a href="${pageContext.request.contextPath}/terminal.jsp">Terminal</a></li>
                             <li class="active">Commit </li>
                         </ol>
-                        <h1>Commit</h1>                        
-                        <h3>Video aula</h3>
-                        <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
-                    <!--Corpo das Paginações -->
+                        <h1>Commit</h1>
+                        <div class="col-md-12">
+                            <h3>Exemplo terminal</h3>    
+                            <img alt="Terminal add" src='../IMAGENS/terminaladd.png' width="900">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Video aula</h3>
+                            <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe> 
+                        </div>
+
+                        <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="col-md-4"></div>
@@ -70,7 +77,7 @@
                                 </div>
 
                                 <div class="col-md-4 pagination">
-                                    
+
                                 </div>
                             </div>
                         </div>
