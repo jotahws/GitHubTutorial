@@ -99,27 +99,6 @@
                             </div>                           
                         </div>
 
-                        <!-- QUESTÕES 3 ADD -->
-                        <div class="panel panel-info col-md-4 text-left">
-                            <!-- Default panel contents -->
-                            <div class="panel-heading"><b>Questão 3) </b>Assinale a FALSA:</div>
-                            <!-- List group -->
-                            <div class="input-group">     
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-1" value="1">Não é obrigatória a indicação do repositório no comando<code>git clone</code></label>
-                                </div>
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-2" value="2"><code>git init</code> cria um repositório local</label>
-                                </div>
-                                <div class="radio" >
-                                    <label><input type="radio" name="questao3" id="qst3-3" value="3"><code>git clone</code> cria um repositório remoto</label>
-                                </div>
-
-                                <button class="btn btn-sm btn-default" onclick="validarRadios('questao3')">Responder</button>
-                                <p id="acerto3" style="color:green"></p>
-                                <p id="erro3" style="color:red"></p>
-                            </div>                           
-                        </div>
                         <!--Corpo das Paginações -->
                         <div class="row">
                             <div class="col-md-12 text-center">
